@@ -5,10 +5,10 @@ Saving your credentials
  - To save your credentials for basic auth and storing in a .sec file in $home\o365-Connection-Password.sec
       Save-o365Credential -Mode "Basic"
       
- - To save your credentials in credential manager for MFA (Exchange Online Module for MFA). Credential will saved in credential manager as 'Office 365 Connection Script'
+ - To save your credentials in credential manager. Credential will saved in credential manager as 'Office 365 Connection Script'
       Save-o365Credentials -Mode "Modern"
 
-Connecting to modules
+Connecting to modules:
 
  - Connect to all modules (Exchange Online, Security and Compliance Center, MSOnline Services)
       ConnectTo-OfficeCloud
