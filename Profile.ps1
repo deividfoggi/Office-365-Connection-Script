@@ -48,7 +48,7 @@ class StoredCredential{
 
 Function Save-O365Credential{
   Param(
-    $Mode
+    [Parameter(Mandatory=$true)]$Mode
   )
   switch($Mode){
     "Basic"{
